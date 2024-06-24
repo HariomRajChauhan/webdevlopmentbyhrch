@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: rgb(164, 202, 189);
+    color: blue;
+
+    padding: 30px;
+    margin: 20px;
+
+
+    height: 800px;
+    width: 600px;
+    border: 10px solid rgb(11, 96, 192) ;
+    font-size: 3rem;
+    border-radius: 30px;
+
+    
+}
+
+h1{
+    font-size: 1em;
+}
+
+.parent .one{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    color: antiquewhite;
+    background-color: blue;
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+    text-align: center;
+    display: flexbox;
+}
+
+.parent{
+    width: 50vw;
+    height: 900px;
+    background-color: rgb(83, 134, 179);
+    /* position: relative; */
+    padding: 40px;
+}
+
+.parent div{
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    background-color:rgb(85, 47, 47);
+
+
+}
+

@@ -1,0 +1,39 @@
+*{
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: rgb(25, 18, 53);
+    display: inline-block;
+    color: rgb(243, 25, 160);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    width: 100rem;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px;
+    
+}
+
+
+
+th, td{
+    border: 1px solid rgb(243, 25, 160);
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+
+}
+
+th{
+    background-color: rgb(243, 25, 160);
+    color: rgb(25, 18, 53);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
